@@ -1,2 +1,2 @@
-# yummyfoods.github.io
-Web design project
+# web-design
+A repositiory for a learning project in web design.
