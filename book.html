@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		
+		<meta charset="UTF-8">
+		<title> Contact Yummy Food  </title>
+		<link rel="stylesheet" href="css/stylesheet.css">		
+	</head>
+
+	<body>
+		<form action="mailto:osumartin@gmail.com" method="post" enctype="text/plain">
+			<fieldset>
+			   <legend>Personal Information:</legend>
+				First name: <input type="text" name="firstname" value="Type Your First Name Here"><br>
+				Last name: <input type="text" name="lastname" value="Type Your Last Name Here"><br><br>
+				E-mail: <input type="email" name="mail" value="Type Your Email Address in the form of example@example.com"><br>
+				Mobile Phone no:  <input type="tel" name="mobilenumber" value="0878289243"><br>
+				<input type="radio" name="gender" value="male" checked> Male<br>
+				<input type="radio" name="gender" value="female"> Female<br>
+				<input type="radio" name="gender" value="other"> Other <br>
+				</fieldset>
+				<fieldset>
+				<legend>Booking Details:</legend>
+				<p>
+				 What Day  Would You Like To Eat? (DD/MM/YYYY): <input type="date" name="eatedate">
+				 What Time Would you Like To Eat: <input type="time" name="eattime">
+				</p>
+				<p>
+				Number Of People In Your Party: <select name="NumberinParty">
+					<option value="1">1</option>
+					<option value="2" selected>2</option>
+					<option value="3">3</option>
+					<option value="4">4</option>
+					<option value="5">5</option>
+					<option value="6">6</option>
+					<option value="7">7</option>
+					<option value="8">8</option>
+					<option value="9">9</option>
+			</select>
+			</p>
+			Do you require  any assistance? <br>
+				<input type="checkbox" name="assistance" value="wheelchair"> Wheel Chair User <br>
+				<input type="checkbox" name="assistance" value="Hearing"> I Have A Hearing Impairement  <br>
+				<input type="checkbox" name="assistance" value="visual"> I have A Vision Impairement <br>
+				<input type="checkbox" name="assistance" value="animal"> I have An Assistance Animal <br>
+				<input type="checkbox" name="assistance" value="reading"> I have A Reading Impairement  <br>
+				<input type="submit" value="Book Now">
+				<input type="reset" value="Reset">
+			</fieldset>
+		</form>
+		
+		</body> 
+ 
+	
+</html>
