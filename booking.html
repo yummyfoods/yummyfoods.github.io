@@ -4,30 +4,32 @@
 	<head>
 		
 		<meta charset="UTF-8">
-		<title> Contact Yummy Food  </title>
-		<link rel="stylesheet" href="css/stylesheet.css">
+		<title> Book Your Meal At Yummy Food </title>
+		<link rel="stylesheet" href="css/style.css">		
 	</head>
 
 	<body>
-		<form action="mailto:osumartin@gmail.com" method="post" enctype="text/plain">
+		<form action="mailto:osumartin@gmail.com" method="post" enctype="text/plain" autocomplete="on" id="booking">
 			<fieldset>
 			   <legend>Personal Information:</legend>
-				First name: <input type="text" name="firstname" value="Type Your First Name Here"><br>
-				Last name: <input type="text" name="lastname" value="Type Your Last Name Here"><br><br>
-				E-mail: <input type="email" name="mail" value="Type Your Email Address in the form of example@example.com"><br>
-				Mobile Phone no:  <input type="tel" name="mobilenumber" value="0878289243"><br>
-				<input type="radio" name="gender" value="male" checked> Male<br>
-				<input type="radio" name="gender" value="female"> Female<br>
-				<input type="radio" name="gender" value="other"> Other <br>
+				<label for="firstname">First name:</label> <input type="text" name="firstname" id="firstname" value="Type Your First Name Here" autofocus><br>
+				<label for="lastname">Last Name:</label> <input type="text" name="lastname" id="lastname" value="Type Your Last Name Here"><br>
+				<label for="emailaddress">E-mail Address:</label> <input type="email" name="emailaddress" id="emailaddress" value="example@example.com"><br>
+				<label for="mobileno">Mobile Number:</label> <input type="tel" name="mobileno" id="mobileno" value="0878289243"><br>
+				<p>
+					<input type="radio" name="gender" value="male" id="male"> <label for="male">Male</label>
+					<input type="radio" name="gender" value="female" id="female"> <label for="female">Female</label>
+					<input type="radio" name="gender" value="other" id="other"> <label for="other">Other</label>
+				</p>
 				</fieldset>
 				<fieldset>
 				<legend>Booking Details:</legend>
 				<p>
-				 What Day  Would You Like To Eat? (DD/MM/YYYY): <input type="date" name="eatedate">
-				 What Time Would you Like To Eat: <input type="time" name="eattime">
+				<label for="date">What date would you like to eat?(YYYY-MM-DD):</label> <input type="date" name="date" value="2017-12-25" id="date"><br>
+				<label for="time">What Time Would you Like To Eat?:</label> <input type="time" name="time" value="22:30" id="time"><br>
 				</p>
 				<p>
-				Number Of People In Your Party: <select name="NumberinParty">
+					<label for="numberinparty">Number Of People In Your Party: </label><select name="numberinParty" id="numberinparty">
 					<option value="1">1</option>
 					<option value="2" selected>2</option>
 					<option value="3">3</option>
@@ -39,12 +41,15 @@
 					<option value="9">9</option>
 			</select>
 			</p>
-			Do you require  any assistance? <br>
-				<input type="checkbox" name="assistance" value="wheelchair"> Wheel Chair User <br>
-				<input type="checkbox" name="assistance" value="Hearing"> I Have A Hearing Impairement  <br>
-				<input type="checkbox" name="assistance" value="visual"> I have A Vision Impairement <br>
-				<input type="checkbox" name="assistance" value="animal"> I have An Assistance Animal <br>
-				<input type="checkbox" name="assistance" value="reading"> I have A Reading Impairement  <br>
+			</fieldset>
+			<fieldset>
+				<legend>Extra Requirements :</legend>
+				Do any of the below requirements apply to any of your party? <br>
+				<input type="checkbox" name="assistance" value="wheelchair" id="wheelchairassistance"> <label for="wheelchairassistance">Wheel Chair User </label><br>
+				<input type="checkbox" name="assistance" value="Hearing" id="hearingassistance"> <label for="hearingassistance"> I Have A Hearing Impairement </label><br>
+				<input type="checkbox" name="assistance" value="visual" id="visionassistance"> <label for="visionassistance"> I have A Vision Impairement </label><br>
+				<input type="checkbox" name="assistance" value="animal" id="animalassistance"> <label for="animalassistance"> I have An Assistance Animal </label><br>
+				<input type="checkbox" name="assistance" value="reading" id="readingassistance"> <label for="readingassistance"> I have A Reading Impairement </label><br>
 				<input type="submit" value="Book Now">
 				<input type="reset" value="Reset">
 			</fieldset>
