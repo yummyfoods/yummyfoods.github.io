@@ -2,13 +2,14 @@
 <html lang="en">
 
 	<head>
-		
 		<meta charset="UTF-8">
 		<title> Book Your Meal At Yummy Food </title>
-		<link rel="stylesheet" href="css/style.css">		
+		<link rel="stylesheet" href="css/stylesheet.css">
+		<script src="https://www.w3schools.com/lib/w3data.js"></script>
 	</head>
-
 	<body>
+		<div w3-include-html="header.html"></div>
+		<p>
 		<form action="mailto:osumartin@gmail.com" method="post" enctype="text/plain" autocomplete="on" id="booking">
 			<fieldset>
 			   <legend>Personal Information:</legend>
@@ -54,8 +55,8 @@
 				<input type="reset" value="Reset">
 			</fieldset>
 		</form>
-		
+		</p>
+			<div w3-include-html="footer.html"></div>
+        	<script>w3IncludeHTML();</script>        
 		</body> 
- 
-	
 </html>
