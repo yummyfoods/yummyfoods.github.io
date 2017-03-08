@@ -23,30 +23,35 @@ img {
 }
 
 input[type=text] {
-    width: 50%;
+    width: 10%;
     padding: 12px 20px;
     margin: 8px 0;
 box-sizing: border-box;}
+
 input[type=email] {
-    width: 50%;
+    width: 10%;
     padding: 12px 20px;
     margin: 8px 0;
 box-sizing: border-box;}
+
 input[type=tel] {
-    width: 50%;
+    width: 10%;
     padding: 12px 20px;
     margin: 8px 0;
 box-sizing: border-box;}
+
 input[type=date] {
-    width: 50%;
+    width: 10%;
     padding: 12px 20px;
     margin: 8px 0;
 box-sizing: border-box;}
+
 input[type=time] {
-    width: 50%;
+    width: 10%;
     padding: 12px 20px;
     margin: 8px 0;
 box-sizing: border-box;}
+
 input[type=text]:focus {
     background-color: lightblue;
 	}
@@ -64,7 +69,7 @@ input[type=time]:focus {
 }
 
 textarea {
-    width: 50%;
+    width: 25%;
     height: 150px;
     padding: 12px 20px;
     box-sizing: border-box;
