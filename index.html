@@ -4,22 +4,55 @@
         <meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Yummy Foods - Home Page</title>
-        
         <link rel="stylesheet" href="css/stylesheet.css">
-        <script src="https://www.w3schools.com/lib/w3data.js"></script>
     </head>
     <body>
-        <div w3-include-html="header.html"></div>
+	<header>
+			<ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#">Menus</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="booking.html">Booking</a></li>
+            <li><a href="#">Takeaway</a></li>
+            <li><a href="recipes.html">Recipes</a></li>
+        </ul>
+	</header>
         
-        <div id="front-page-image">
+            <div id="front-page-image">
             <img src="images/abendbrot-939435_1920.jpg"
             alt="A picture from a restaurant at night
             showing a plate of food and some wine">
         </div>
+			<footer>
+				<ul>
+					<li>
+					<div id="facebook">
+						<a href="#">
+						<img src="images/social-1_square-facebook.svg"
+						alt="Facebook icon">
+						</a>
+					</div>
+				</li>
+           
+				<li>
+					<div id="twitter">
+						<a href="#">
+						<img src="images/social-1_square-twitter.svg"
+						alt="Twitter icon">
+						</a>
+					</div>
+				</li>
+           
+				<li>
+					<div id="instagram">
+					<a href="#">
+					<img src="images/social-1_square-instagram.svg"
+					alt="Instagram icon">
+					</a>
+					</div> 
+				</li>
+				</ul>
+			</footer>
         
-        <div w3-include-html="footer.html"></div>
-        
-        
-        <script>w3IncludeHTML();</script>
     </body>
 </html>
