@@ -1,19 +1,27 @@
-ul {
+.headerfooterlist ul {
     background-color: #333;
     list-style-type: none;
     margin: 0;
     padding: 0;
 }
 
-li {
+.headerfooterlist li {
     float: left;
 }
 
-li a {
+.headerfooterlist li {
     display: block;
     padding: 14px 16px;
     text-decoration: none;
 }
+
+.headerfooterlist { 
+clear: both; 
+}
+
+
+/*Manage front page immage.*/
+
 
 #front-page-image {width: 100%;}
 
@@ -21,3 +29,137 @@ img {
     max-width: 100%;
     max-height: 100%;
 }
+
+/*this code manages the display of the text entry fields in the forms.*/
+
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+box-sizing: border-box;}
+
+input[type=email] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+box-sizing: border-box;}
+
+input[type=tel] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+box-sizing: border-box;}
+
+input[type=date] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+box-sizing: border-box;}
+
+input[type=time] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+box-sizing: border-box;}
+
+/*this code manages the colour of the form elements when they are selected by the user.*/
+
+input[type=text]:focus {
+    background-color: lightblue;
+	}
+input[type=email]:focus {
+    background-color: lightblue;
+}
+input[type=tel]:focus {
+    background-color: lightblue;
+}
+input[type=date]:focus {
+    background-color: lightblue;
+}
+input[type=time]:focus {
+    background-color: lightblue;
+}
+
+/*this code manages the display of the text box in the forms.*/
+
+textarea {
+    width: 25%;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #808080;
+    resize: none;
+}
+
+/*this code manages the display of the selection box in the forms.*/
+
+select {
+    width: 10%;
+    padding: 16px 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: #f1f1f1;
+}
+
+/*Hide legend in form.*/
+/*this code comes from https://developer.mozilla.org/en-US/docs/Learn/HTML/Forms/Styling_HTML_forms*/
+
+legend {
+  width: 0px;
+  height: 0px;
+  overflow: hidden;
+
+/*end of code to manage form.*/
+
+
+div.img {
+    border: 1px solid #ccc;
+}
+
+div.img:hover {
+    border: 1px solid #777;
+}
+
+div.img img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: left;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.responsive {
+    padding: 0 6px;
+    float: left;
+    width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px){
+    .responsive {
+        width: 49.99999%;
+        margin: 6px 0;
+    }
+}
+
+@media only screen and (max-width: 500px){
+    .responsive {
+        width: 100%;
+    }
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+

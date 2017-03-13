@@ -3,14 +3,27 @@
 
 	<head>
 		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<title> Book Your Meal At Yummy Food </title>
 		<link rel="stylesheet" href="css/stylesheet.css">
-		<script src="https://www.w3schools.com/lib/w3data.js"></script>
+		
 	</head>
 	<body>
-		<div w3-include-html="header.html"></div>
-		<p>
-		<form action="mailto:osumartin@gmail.com" method="post" enctype="text/plain" autocomplete="on" id="booking">
+	<header>
+		<div class ="headerfooterlist">
+		<ul>
+	            <li><a href="index.html">Home</a></li>
+	            <li><a href="#">Menus</a></li>
+	            <li><a href="about-us.html">About Us</a></li>
+	            <li><a href="booking.html">Booking</a></li>
+	            <li><a href="takeaway.html">Takeaway</a></li>
+	            <li><a href="recipes.html">Recipes</a></li>
+		</ul>
+		</div>
+	</header>
+	
+			<div class ="bookingform">
+			<form action="mailto:osumartin@gmail.com" method="post" enctype="text/plain" autocomplete="on" id="booking">
 			<fieldset>
 			   <legend>Personal Information:</legend>
 				<label for="firstname">First name:</label> <input type="text" name="firstname" id="firstname" value="Type Your First Name Here" autofocus><br>
@@ -55,8 +68,37 @@
 				<input type="reset" value="Reset">
 			</fieldset>
 		</form>
-		</p>
-			<div w3-include-html="footer.html"></div>
-        	<script>w3IncludeHTML();</script>        
+		</div>
+	<footer>
+		<div class ="headerfooterlist">
+			<ul>
+			<li>
+				<div id="facebook">
+				<a href="#">
+				<img src="images/social-1_square-facebook.svg"
+				alt="Facebook icon">
+				</a>
+			</div>
+			</li>
+
+			<li>
+			<div id="twitter">
+				<a href="#">
+				<img src="images/social-1_square-twitter.svg"
+				alt="Twitter icon">
+				</a>
+			</div>
+			</li>
+			<li>
+			<div id="instagram">
+				<a href="#">
+				<img src="images/social-1_square-instagram.svg"
+				alt="Instagram icon">
+				</a>
+			</div> 
+			</li>
+			</ul>
+		</div>
+	</footer>
 		</body> 
 </html>
