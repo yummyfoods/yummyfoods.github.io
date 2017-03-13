@@ -1,53 +1,59 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 	<head>
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title> Order Takeaway - Takeout </title>
 		<link rel="stylesheet" href="css/stylesheet.css">
-		<script src="https://www.w3schools.com/lib/w3data.js"></script>
+		<title> Contact Yummy Food </title>
 	</head>
+<body>
 
-	<body>
-			<header>
+<div class="menuebox">
+	<header>
 		<div class ="headerfooterlist">
 		<ul>
-	            <li><a href="index.html">Home</a></li>
-	            <li><a href="#">Menus</a></li>
-	            <li><a href="about-us.html">About Us</a></li>
-	            <li><a href="booking.html">Booking</a></li>
-	            <li><a href="takeaway.html">Takeaway</a></li>
-	            <li><a href="recipes.html">Recipes</a></li>
-		</ul>
-		</div>
+			<li><a href="index.html">Home</a></li>
+	        <li><a href="#">Menus</a></li>
+	        <li><a href="about-us.html">About Us</a></li>
+	        <li><a href="booking.html">Booking</a></li>
+	        <li><a href="takeaway.html">Takeaway</a></li>
+			<li><a href="recipes.html">Recipes</a></li>
+			</ul>
+			</div>
 	</header>
 
+<nav class="nav">
+A picture of the door goes here, along with a google map 
+</nav>
+<article class="article">
 		<form action="mailto:osumartin@gmail.com" method="post" enctype="text/plain" autocomplete="on" id="booking">
-			<fieldset>
-			   <legend>Contact Information:</legend>
-				<label for="firstname">First name:</label> <input type="text" name="firstname" id="firstname" value="Type Your First Name Here" autofocus><br>
+				<fieldset>
+				<legend>Contact Information:</legend>
+			   	<label for="firstname">First name:</label> <input type="text" name="firstname" id="firstname" value="Type Your First Name Here" autofocus><br>
 				<label for="lastname">Last Name:</label> <input type="text" name="lastname" id="lastname" value="Type Your Last Name Here"><br>
 				<label for="emailaddress">E-mail Address:</label> <input type="email" name="emailaddress" id="emailaddress" value="example@example.com"><br>
 				<label for="mobileno">Mobile Number:</label> <input type="tel" name="mobileno" id="mobileno" value="0878289243"><br>
-					<input type="radio" name="gender" value="male" id="male"> <label for="male">Male</label>
-					<input type="radio" name="gender" value="female" id="female"> <label for="female">Female</label>
-					<input type="radio" name="gender" value="other" id="other"> <label for="other">Other</label> <br>
-					</fieldset>
-					<fieldset>
-			   <legend>Mailing Address:</legend>
+				<input type="radio" name="gender" value="male" id="male"> <label for="male">Male</label>
+				<input type="radio" name="gender" value="female" id="female"> <label for="female">Female</label>
+				<input type="radio" name="gender" value="other" id="other"> <label for="other">Other</label> <br>
+			</fieldset>
+			<fieldset>
+					<legend>Delivary Address:</legend>
 					<label for="address1">First line of your address:</label> <input type="text" name="address1" id="address1" value="first line of address"><br>
 					<label for="address2">Second line of your address:</label> <input type="text" name="address2" id="address2" value="Second line of address"><br>
 					<label for="towncity">Town or City:</label> <input type="text" name="towncity" id="towncity" value="Town or City"><br>
 					<label for="postzip">Postal or Zip Code:</label> <input type="text" name="postzip" id="postzip" value="Postal Or Zip Code"><br>
 			</fieldset>
 			<fieldset>
-				<legend>Any extra comments:</legend>
-				<label for="contactmessage">Any Extra instructions for Delivary : </label> <br><textarea name="contactmessage" rows="10" cols="30" id="contactmessage">Give us any extra instructions for delivary.</textarea><br>
+				<legend>Any extra instructions:</legend>
+				<label for="contactmessage">How can we help you today: </label> <br><textarea name="contactmessage" rows="10" cols="30" id="contactmessage">Enter any special instructions here.</textarea><br>
 				<input type="submit" value="Contact Us">
 				<input type="reset" value="Reset">
 			</fieldset>
-		</form>
-	<footer>
+		</form>  
+</article>
+
+<footer>
 		<div class ="headerfooterlist">
 			<ul>
 			<li>
@@ -78,5 +84,7 @@
 			</ul>
 		</div>
 	</footer>
-		</body> 
+</div>
+
+</body>
 </html>
