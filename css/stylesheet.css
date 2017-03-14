@@ -161,8 +161,10 @@ legend {
   height: 0px;
   overflow: hidden;
 }
+
 /*end of code to manage form.*/
 
+/*This code manages the immages and videos on the recipes.html page.*/
 
 div.img {
     border: 1px solid #ccc;
@@ -210,3 +212,5 @@ div.desc {
     display: table;
     clear: both;
 }
+
+/*end of This code manages the immages and videos on the recipes.html page.*/
