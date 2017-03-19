@@ -18,9 +18,8 @@ p {
     font-size: 0.875em;
 }
 
-
-
 /*this code sets up boxes for controling the top menu.*/
+
 .menuebox {
     display: -webkit-flex;
     display: flex;  
