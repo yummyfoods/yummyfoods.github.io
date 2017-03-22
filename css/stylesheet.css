@@ -20,6 +20,23 @@ p {
 
 /*end of  This code sets the size of the fonts on the site.*/
 
+
+
+/*This code sets the size of the whole webpage and establishes a container around the webpage. */
+
+#container 
+{ 
+	width: 99%; 
+	margin: 10px auto; 
+	background-color: #fff; 
+	color: #333; 
+	border: 1px solid gray; 
+	line-height: 130%; 
+}
+
+/*end of This code sets the size of the whole webpage and establishes a container around the webpage. */
+
+
 /*this code sets up boxes for controling the top menu.*/
 
 .menuebox {
@@ -125,7 +142,7 @@ footer {-webkit-order:3;order:3;}
 /*this code improves backwards compatibility with browsers developed before html 5.*/
 
 header, section, footer, aside, nav, main, article, figure {
-    display: block; 
+    display: block; 
 } 
 
 /*Manage front page immage.*/
