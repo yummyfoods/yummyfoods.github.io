@@ -60,6 +60,7 @@ p {
 /*end of this code manages the display of list items for the header and footers of all the pages.*/
 
 /*this code manages the display of the Google Map.*/
+/*This code comes from https://www.labnol.org/internet/embed-responsive-google-maps/28333/ */
 
 .google-maps {
 	position: relative;
@@ -72,8 +73,8 @@ p {
 	position: absolute;
 	top: 0;
 	left: 0;
-	width: 100% !important;
-	height: 100% !important;
+	width: 100%; 
+	height: 100%;
 }
 
 /*end of this code manages the display of the Google Map.*/
@@ -100,6 +101,7 @@ footer {background: #ffffff;color:white;}
 }
 
 /*end of this code manages the display of list items in the navagation bar.*/
+
 .nav {
     width: 6%;
 
