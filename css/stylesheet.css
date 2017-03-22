@@ -1,4 +1,4 @@
-﻿/* This code imports  the font on the site.*/
+/* This code imports  the font on the site.*/
 @import url('https://fonts.googleapis.com/css?family=Playfair+Display');
 
 /* This code sets the size of the fonts on the site.*/
@@ -103,10 +103,10 @@ p {
 }
 /* end of this code manages the display of the main peace of text on the page (inside the <article>).*/
 
-header {background: #ffffff;color:white;}
-footer {background: #ffffff;color:white;}
+header {background: #eeeeee;color:white;}
+footer {background: #eeeeee;color:white;}
 
-.nav {background:#eee;}
+.nav {background:#eeeeee;}
 
 /*this code manages the display of list items in the navagation bar.*/
 .nav ul {
@@ -213,7 +213,7 @@ textarea {
     box-sizing: border-box;
     border: 2px solid #ccc;
     border-radius: 4px;
-    background-color: #808080;
+    background-color: #ffffff;
     resize: none;
 }
 
@@ -238,7 +238,7 @@ legend {
 
 /*end of code to manage form.*/
 
-/*This code manages the immages and videos on the recipes.html page.*/
+/*This code manages the immages and videos on the cookingdemonstrations.html page.*/
 
 div.img {
     border: 1px solid #ccc;
@@ -288,7 +288,9 @@ div.desc {
 }
 
 /*end of This code manages the immages and videos on the recipes.html page.*/
+
 /* ronan ocde for menus */
+
 .body{
 background-image: url("abendbrot-939435_1920.jpg");
 }
