@@ -20,13 +20,11 @@ p {
 
 /*end of  This code sets the size of the fonts on the site.*/
 
-
-
 /*This code sets the size of the whole webpage and establishes a container around the webpage. */
 
 #container 
 { 
-	width: 99%; 
+	width: 95%; 
 	margin: 10px auto; 
 	background-color: #fff; 
 	color: #333; 
@@ -36,52 +34,36 @@ p {
 
 /*end of This code sets the size of the whole webpage and establishes a container around the webpage. */
 
+/*end of This code sets the size of the whole webpage and establishes a container around the webpage. */
 
-/*this code sets up boxes for controling the top menu.*/
+#top 
+{ 
+	padding: 0.5em; 
+	background-color: #ddd; 
+	border-bottom: 1px solid gray; 
+} 
 
-.menuebox {
-    display: -webkit-flex;
-    display: flex;  
-    -webkit-flex-flow: row wrap;
-    flex-flow: row wrap;
-    text-align: center;
-}
 
-.menuebox > * {
-    padding: 15px;
-    -webkit-flex: 1 100%;
-    flex: 1 100%;
-}
+#top h1 
+{ 
+	padding: 0; 
+	margin: 0; 
+} 
 
-/*end of this code sets up boxes for controling the top menu.*/
-
-/*this code manages the display of list items for the header and footers of all the pages.*/
-
-.headerfooterlist ul {
-    background-color: #333;
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-}
-
-.headerfooterlist li {
-    display: block;
-    padding: 14px 16px;
-    text-decoration: none;
-}
-
-.headerfooterlist li {
-    float: left;
-}
-
-/*end of this code manages the display of list items for the header and footers of all the pages.*/
+#leftnav 
+{ 
+	float: left; 
+	width: 160px; 
+	margin: 0; 
+	padding: 1em; 
+} 
 
 /*this code manages the display of the Google Map.*/
 /*This code comes from https://www.labnol.org/internet/embed-responsive-google-maps/28333/ */
 
 .google-maps {
 	position: relative;
-	padding-bottom: 75%; // This is the aspect ratio
+	padding-bottom: 75%; 
 	height: 0;
 	overflow: hidden;
 }
@@ -96,82 +78,93 @@ p {
 
 /*end of this code manages the display of the Google Map.*/
 
-/*this code manages the display of the main peace of text on the page (inside the <article>).*/
 
-.article {
-    text-align: left;
-}
-/* end of this code manages the display of the main peace of text on the page (inside the <article>).*/
+#rightnav 
+{ 
+	float: right; 
+	width: 160px; 
+	margin: 0; 
+	padding: 1em; 
+} 
 
-/* this code manages the colour of the page.*/
-
-header {
-	background: #eeeeee;
-	color:#000000;
-	}
-footer {
-	background: #eeeeee;
-	color:#000000;
-	}
-article {
-	background: #ffffff;
-	color:#000000;
-	}
-
-.nav {
-	background: #eeeeee;
-	color: #000000;
-	}
-
-/* end of this code manages the colour of the page.*/
-
-/*this code manages the display of list items in the navagation bar.*/
-
-.nav ul {
-    list-style-type: none;
-    padding: 0;
+#content 
+{ 
+	margin-left: 200px; 
+	border-left: 1px solid gray; 
+	margin-right: 200px; 
+	border-right: 1px solid gray; 
+	padding: 1em;
 }
 
-.nav ul a {
+#footer 
+{ 
+	clear: both; 
+	margin: 0; 
+	padding: .5em; 
+	color: #333; 
+	background-color: #ddd; 
+	border-top: 1px solid gray;  
+} 
+
+#leftnav p, #rightnav p 
+{ 
+	margin: 0 0 1em 0; 
+} 
+ 
+#content h2 
+{ 
+	margin: 0 0 .5em 0; 
+} 
+
+#content2 
+{ 
+	max-width: 36em; 
+} 
+
+
+/* ronan ocde for menus */
+
+.body{
+background-image: url("abendbrot-939435_1920.jpg");
+}
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: #333;
+    overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
     text-decoration: none;
+    font-size: 17px;
 }
 
-/*end of this code manages the display of list items in the navagation bar.*/
-
-.nav {
-    width: 5%;
-
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
 }
 
-
-@media all and (min-width: 768px) {
-
-	.nav {
-	text-align:left;
-	-webkit-flex: 1 auto;
-	flex:1 auto;
-	-webkit-order:1;
-	order:1;
-	}
-
-
-	.article {
-	-webkit-flex:5 0px;
-	flex:5 0px;
-	-webkit-order:2;
-	order:2;
-	}
-
-	footer {
-	-webkit-order:3;
-	order:3;
-	 
+/* Hide the link that should open and close the topnav on small screens */
+.topnav .icon {
+    display: none;
 }
-
-
-
-
-/*this code improves backwards compatibility with browsers developed before html 5.*/
+.menu {
+margin:100px 100px 100px 100px;
+border:500px 50px 50px 50px;
+padding: 100px 100px 100px 100px;
+background-color:#dddddd;
+width:650px;
+}
+ 
+ 
+ 
+ /*this code improves backwards compatibility with browsers developed before html 5.*/
 
 header, section, footer, aside, nav, main, article, figure {
     display: block; 
@@ -270,6 +263,8 @@ legend {
 
 /*end of code to manage form.*/
 
+
+
 /*This code manages the immages and videos on the cookingdemonstrations.html page.*/
 
 div.img {
@@ -321,42 +316,25 @@ div.desc {
 
 /*end of This code manages the immages and videos on the recipes.html page.*/
 
-/* ronan ocde for menus */
 
-.body{
-background-image: url("abendbrot-939435_1920.jpg");
-}
-/* Add a black background color to the top navigation */
-.topnav {
+
+/*this code manages the display of list items for the header and footers of all the pages.*/
+
+.headerfooterlist ul {
     background-color: #333;
-    overflow: hidden;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
 
-/* Style the links inside the navigation bar */
-.topnav a {
-    float: left;
+.headerfooterlist li {
     display: block;
-    color: #f2f2f2;
-    text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    font-size: 17px;
 }
 
-/* Change the color of links on hover */
-.topnav a:hover {
-    background-color: #ddd;
-    color: black;
+.headerfooterlist li {
+    float: left;
 }
 
-/* Hide the link that should open and close the topnav on small screens */
-.topnav .icon {
-    display: none;
-}
-.menu {
-margin:100px 100px 100px 100px;
-border:500px 50px 50px 50px;
-padding: 100px 100px 100px 100px;
-background-color:#dddddd;
-width:650px;
-}
+/*end of this code manages the display of list items for the header and footers of all the pages.*/
