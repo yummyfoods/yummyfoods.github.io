@@ -81,7 +81,7 @@ p {
 
 .google-maps {
 	position: relative;
-	padding-bottom: 75%; // This is the aspect ratio
+	padding-bottom: 75%; /* This is the aspect ratio */
 	height: 0;
 	overflow: hidden;
 }
@@ -140,7 +140,6 @@ article {
 
 .nav {
     width: 2%;
-
 }
 
 
@@ -166,6 +165,7 @@ article {
 	-webkit-order:3;
 	order:3;
 	 
+}
 }
 
 
@@ -216,7 +216,8 @@ input[type=time] {
     width: 100%;
     padding: 12px 20px;
     margin: 8px 0;
-box-sizing: border-box;}
+    box-sizing: border-box;
+}
 
 /*this code manages the colour of the form elements when they are selected by the user.*/
 
@@ -300,14 +301,14 @@ div.desc {
     width: 24.99999%;
 }
 
-@media only screen and (max-width: 700px){
+@media only screen and (max-width: 700px) {
     .responsive {
-        width: 49.99999%;
+        width: 49.9%;
         margin: 6px 0;
     }
 }
 
-@media only screen and (max-width: 500px){
+@media only screen and (max-width: 500px) {
     .responsive {
         width: 100%;
     }
@@ -321,7 +322,7 @@ div.desc {
 
 /*end of This code manages the immages and videos on the recipes.html page.*/
 
-/* ronan ocde for menus */
+/* ronan code for menus */
 
 .body{
 background-image: url("abendbrot-939435_1920.jpg");
@@ -353,10 +354,11 @@ background-image: url("abendbrot-939435_1920.jpg");
 .topnav .icon {
     display: none;
 }
+
 .menu {
-margin:100px 100px 100px 100px;
-border:500px 50px 50px 50px;
-padding: 100px 100px 100px 100px;
-background-color:#dddddd;
-width:650px;
+    margin: 100px 100px 100px 100px;
+    border-width: 500px 50px 50px 50px;
+    padding: 100px 100px 100px 100px;
+    background-color: #dddddd;
+    width: 650px;
 }
