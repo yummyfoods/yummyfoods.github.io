@@ -1,44 +1,8 @@
-/* This code imports  the font on the site.*/
-@import url('https://fonts.googleapis.com/css?family=Playfair+Display');
-
-/* This code sets the size of the fonts on the site.*/
-body {
-    font-size: 100%;
+#container {
+   /* background-image: url("../images/abendbrot-939435_1920.jpg");*/
 }
 
-h1 {
-    font-size: 2.5em;
-}
-
-h2 {
-    font-size: 1.875em;
-}
-
-p {
-    font-size: 0.875em;
-}
-
-/*end of  This code sets the size of the fonts on the site.*/
-
-
-
-/*This code sets the size of the whole webpage and establishes a container around the webpage. */
-
-#container 
-{ 
-	width: 100%; 
-	margin: 10px auto; 
-	background-color: #fff; 
-	color: #333; 
-	border: 1px solid gray; 
-	line-height: 130%; 
-}
-
-/*end of This code sets the size of the whole webpage and establishes a container around the webpage. */
-
-
-/*this code sets up boxes for controling the top menu.*/
-
+	/*this code sets up boxes for controling the top menu.*/
 .menuebox {
     display: -webkit-flex;
     display: flex;  
@@ -76,106 +40,40 @@ p {
 
 /*end of this code manages the display of list items for the header and footers of all the pages.*/
 
-/*this code manages the display of the Google Map.*/
-/*This code comes from https://www.labnol.org/internet/embed-responsive-google-maps/28333/ */
-
-.google-maps {
-	position: relative;
-	padding-bottom: 75%; /* This is the aspect ratio */
-	height: 0;
-	overflow: hidden;
-}
-
-.google-maps iframe {
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%; 
-	height: 100%;
-}
-
-/*end of this code manages the display of the Google Map.*/
-
-/*this code manages the display of the main peace of text on the page (inside the <article>).*/
+/*this code manages the display of main peace of text on the page.*/
 
 .article {
     text-align: left;
 }
-/* end of this code manages the display of the main peace of text on the page (inside the <article>).*/
 
-/* this code manages the colour of the page.*/
-
-header {
-	background: #eeeeee;
-	color:#000000;
-	}
-footer {
-	background: #eeeeee;
-	color:#000000;
-	}
-article {
-	background: #ffffff;
-	color:#000000;
-	}
-
-.nav {
-	background: #eeeeee;
-	color: #000000;
-	}
-
-/* end of this code manages the colour of the page.*/
-
-/*this code manages the display of list items in the navagation bar.*/
+header {background: #ffffff;color:white;}
+footer {background: #aaaa;color:white;}
+.nav {background:#eee;}
 
 .nav ul {
     list-style-type: none;
     padding: 0;
 }
-
 .nav ul a {
     text-decoration: none;
 }
-
-/*end of this code manages the display of list items in the navagation bar.*/
-
 .nav {
     width: 2%;
-}
 
+}
 
 @media all and (min-width: 768px) {
 
-	.nav {
-	text-align:left;
-	-webkit-flex: 1 auto;
-	flex:1 auto;
-	-webkit-order:1;
-	order:1;
-	}
-
-
-	.article {
-	-webkit-flex:5 0px;
-	flex:5 0px;
-	-webkit-order:2;
-	order:2;
-	}
-
-	footer {
-	-webkit-order:3;
-	order:3;
-	 
+.nav {
+text-align:left;
+-webkit-flex: 1 auto;
+flex:1 auto;
+-webkit-order:1;
+order:1;
 }
+.article {-webkit-flex:5 0px;flex:5 0px;-webkit-order:2;order:2;}
+footer {-webkit-order:3;order:3;}
 }
-
-
-
-
-/*this code improves backwards compatibility with browsers developed before html 5.*/
-
-header, section, footer, aside, nav, main, article, figure {
-    display: block; 
-} 
 
 /*Manage front page immage.*/
 
@@ -216,8 +114,7 @@ input[type=time] {
     width: 100%;
     padding: 12px 20px;
     margin: 8px 0;
-    box-sizing: border-box;
-}
+box-sizing: border-box;}
 
 /*this code manages the colour of the form elements when they are selected by the user.*/
 
@@ -246,7 +143,7 @@ textarea {
     box-sizing: border-box;
     border: 2px solid #ccc;
     border-radius: 4px;
-    background-color: #ffffff;
+    background-color: #808080;
     resize: none;
 }
 
@@ -271,7 +168,7 @@ legend {
 
 /*end of code to manage form.*/
 
-/*This code manages the immages and videos on the cookingdemonstrations.html page.*/
+/*This code manages the immages and videos on the recipes.html page.*/
 
 div.img {
     border: 1px solid #ccc;
@@ -288,7 +185,7 @@ div.img img {
 
 div.desc {
     padding: 15px;
-    text-align: center;
+    text-align: left;
 }
 
 * {
@@ -301,14 +198,14 @@ div.desc {
     width: 24.99999%;
 }
 
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 700px){
     .responsive {
-        width: 49.9%;
+        width: 49.99999%;
         margin: 6px 0;
     }
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 500px){
     .responsive {
         width: 100%;
     }
@@ -322,11 +219,6 @@ div.desc {
 
 /*end of This code manages the immages and videos on the recipes.html page.*/
 
-/* ronan code for menus */
-
-.body{
-background-image: url("abendbrot-939435_1920.jpg");
-}
 /* Add a black background color to the top navigation */
 .topnav {
     background-color: #333;
@@ -354,11 +246,64 @@ background-image: url("abendbrot-939435_1920.jpg");
 .topnav .icon {
     display: none;
 }
+/* ronan ocde for menus */
+.menu-container{
+ width: 90%;
+margin: 10px auto;
+font-family: 'Lobster', cursive;
+color: #fff;
+border: 1px solid gray;
+line-height: 130%;
+display: block;
+    background-image: url("../images/abendbrot-939435_1920.jpg");
 
-.menu {
-    margin: 100px 100px 100px 100px;
-    border-width: 500px 50px 50px 50px;
-    padding: 100px 100px 100px 100px;
-    background-color: #dddddd;
-    width: 650px;
+ }
+ #top{
+padding: 0.5em;
+background-color: #ddd;
+border-bottom: 1px solid gray;
+}
+#top h1{
+padding: 0;
+margin: 0;
+}
+#leftnav
+{
+float: left;
+width: 200px;
+margin: 0;
+padding: 1em;
+}
+#rightnav
+{
+float: right;
+width: 200px;
+margin: 0;
+padding: 1em;
+}
+#content
+{
+margin-left: 200px;
+border-left: 1px solid gray;
+margin-right: 200px;
+border-right: 1px solid gray;
+padding: 1em; 
+text-align: center;
+}
+#footer
+{
+clear: both;
+margin: 0;
+padding: .5em;
+color: #333;
+/*background-color: #ddd; 
+border-top: 1px solid gray;*/
+} 
+#leftnav p, #rightnav p
+{
+margin: 0 0 1em 0;
+}
+#content h2
+{
+margin: 0 0 .5em 0;
 }
