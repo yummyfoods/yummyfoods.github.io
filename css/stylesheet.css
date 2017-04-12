@@ -88,57 +88,59 @@ img {
 /*this code manages the display of the text entry fields in the forms.*/
 
 input[type=text] {
-    width: 100%;
+    width: 40%;
     padding: 12px 20px;
     margin: 8px 0;
 box-sizing: border-box;}
 
 input[type=email] {
-    width: 100%;
+    width: 40%;
     padding: 12px 20px;
     margin: 8px 0;
 box-sizing: border-box;}
 
 input[type=tel] {
-    width: 100%;
+    width: 40%;
     padding: 12px 20px;
     margin: 8px 0;
 box-sizing: border-box;}
 
 input[type=date] {
-    width: 100%;
+    width: 40%;
     padding: 12px 20px;
     margin: 8px 0;
 box-sizing: border-box;}
 
 input[type=time] {
-    width: 100%;
+    width: 40%;
     padding: 12px 20px;
     margin: 8px 0;
 box-sizing: border-box;}
 
 /*this code manages the colour of the form elements when they are selected by the user.*/
 
+
 input[type=text]:focus {
     background-color: lightblue;
 	}
+
 input[type=email]:focus {
-    background-color: lightblue;
+    background-color: red;
 }
 input[type=tel]:focus {
-    background-color: lightblue;
+    background-color: red
 }
 input[type=date]:focus {
-    background-color: lightblue;
+    background-color: red
 }
 input[type=time]:focus {
-    background-color: lightblue;
+    background-color: red
 }
 
 /*this code manages the display of the text box in the forms.*/
 
 textarea {
-    width: 25%;
+    width: 40%;
     height: 150px;
     padding: 12px 20px;
     box-sizing: border-box;
