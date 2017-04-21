@@ -1,18 +1,17 @@
 <!DOCTYPE html>
-<html>
-	<head>
-		<meta charset="UTF-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<link rel="stylesheet" href="css/stylesheet.css">
-		<!--[if lt IE 9]>
+<html lang="en">
+		<head>
+			<meta charset="UTF-8">
+			<meta name="viewport" content="width=device-width, initial-scale=1.0">
+			<link rel="stylesheet" href="css/stylesheet.css">
+			<!--[if lt IE 9]>
 		<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
 		<![endif]-->
 		<title> Take Away Your Yummy Food </title>
-	</head>
-<body>
-<div id="container">
-<div class="menuebox">
-	<header>
+	</head> 
+	<body>
+			<div id="container">
+			<header>
 		<div class="topnav" id="myTopnav">
 			<a href="index.html">Home</a>
 			<a href="index.html">Menu</a>
@@ -23,24 +22,33 @@
 			<a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
 				</div>
 	</header>
+			<div class="menu-container">
+	
+	<!--<div id="top">
+				<h1>Header</h1> 
+			</div> -->
 
-	<nav class="nav">
-		<div class="google-maps">
-			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2381.6911878252436!2d-6.244961784402113!3d53.34878398223003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48670e8d1bdaf2ed%3A0x20fe35903d91c026!2sNational+College+of+Ireland%2C+Mayor+Street+Lower%2C+International+Financial+Services+Centre%2C+Dublin+1!5e0!3m2!1sen!2sie!4v1489440234972"  allowfullscreen></iframe> 
-		</div>
-	<address>
-		National College of Ireland <br>
-		Mayor Street Lower <br>
-		International Financial Services Centre <br>
-		Dublin 1 <br>
-		D01 Y300 <br>
-		Ireland  <br>
-		tel: 0878289243 <br>
-		e-mail <a href="mailto:osumartin@gmail.com?subject=Contact%20From%20Webpage&body=Hi%20Yummyfoods">osumartin@gmail.com</a> <br>
-	</address>
-	</nav>
-	<article class="article">
-		<form action="mailto:osumartin@gmail.com" method="post" enctype="text/plain" autocomplete="on" id="booking">
+			<div id="leftnav">
+				<p> We are waiting for your booking . Please hit the booking button !  </p>
+			</div>
+			
+			<div id="rightnav">
+				<p> This is our address 
+					<address>
+							National College of Ireland <br>
+							Mayor Street Lower <br>
+								International Financial Services Centre <br>
+								Dublin 1 <br>
+								D01 Y300 <br>
+								Ireland  <br>
+								tel: 0878289243 <br>
+									e-mail <a href="mailto:osumartin@gmail.com?subject=Contact%20From%20Webpage&body=Hi%20Yummyfoods">osumartin@gmail.com</a> <br>
+				</address>
+			
+			</div>
+			
+			<div id="content">
+<form action="mailto:osumartin@gmail.com" method="post" enctype="text/plain" autocomplete="on" id="booking">
 				<fieldset>
 				<legend>Contact Information:</legend>
 			   	<label for="firstname">First name:</label> <input type="text" name="firstname" id="firstname" value="Type Your First Name Here" autofocus><br>
@@ -65,9 +73,9 @@
 				<input type="reset" value="Reset">
 			</fieldset>
 		</form>  
-</article>
-
-<footer>
+		
+		</div>
+				<footer>
 		<div class ="headerfooterlist">
 			<ul>
 			<li>
@@ -98,7 +106,7 @@
 			</ul>
 		</div>
 	</footer>
-</div>
-</div>
-</body>
+	</div>
+	</div>
+	</body>
 </html>
