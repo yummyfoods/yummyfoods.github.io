@@ -237,7 +237,7 @@ div.desc {
 .menu-container {
     width: inherit;
     margin: auto;
-    opacity: 0.3;
+    /*opacity: 0.3;*/
     font-family: 'Lobster', cursive;
     color: #fff;
     border: 1px solid gray;
