@@ -339,14 +339,16 @@ div.desc {
 }
 
 .topnav .dropdown-content a {
-    color: black;
+    color: white;
     padding: 12px 16px;
     text-decoration: none;
     display: block;
     text-align: left;
 }
 
-.topnav .dropdown-content a:hover {background-color: #f1f1f1}
+.topnav .dropdown-content a:hover {
+    background-color: #ddd;
+}
 
 .topnav .dropdown:hover .dropdown-content {
     display: block;
