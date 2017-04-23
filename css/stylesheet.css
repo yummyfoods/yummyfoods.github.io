@@ -430,6 +430,17 @@ div.desc {
     display: inline-block;
     font-size: 14px;
 }
-.menubuttons {
-	margin-bottom: 2000em;
+
+
+.bookingbutton{
+	margin-top: 10em;
+	 background-color: #333;
+    border: 15% 32%;
+	width: 15em;
+    color: white;
+   
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
 }
