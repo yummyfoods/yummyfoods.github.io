@@ -2,10 +2,9 @@
     margin: 0;
     padding: 0;
     background-image: url("../images/abendbrot-939435_1920.png");
-    
 }
 
-/*this code sets up boxes for controling the top menu.*/
+/*this code sets up boxes for controling the top menu.
 .menuebox {
     display: -webkit-flex;
     display: flex;  
@@ -18,12 +17,22 @@
     padding: 15px;
     -webkit-flex: 1 100%;
     flex: 1 100%;
-}
+}*/
 
 /*end of this code sets up boxes for controling the top menu.*/
 
 
 /*end of this code manages the display of list items for the header and footers of all the pages.*/
+
+.welcome {
+    font-size: 44px;
+    padding:40px;
+}
+
+.subwelcome {
+    font-size: 30px;
+    padding: 40px;
+}
 
 /*this code manages the display of main piece of text on the page.*/
 
@@ -243,9 +252,19 @@ div.desc {
     font-family: 'Lobster', cursive;
     color: #fff;
     line-height: 130%;
-    display: block;
-    height:55em;
+    display: flex;
+    flex-direction: column;
+    height:75em;
     text-align: center;
+    padding: 100px;
+}
+
+.menu-container ul {
+    list-style-type: none
+}
+
+.menu-container ul li {
+    padding: 15px 0px;
 }
 
 #top {
@@ -319,32 +338,36 @@ div.desc {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    width: 100%;
+    height: 100%;
 }
 
 .topnav li a:hover, .dropdown:hover .dropbtn {
     background-color: #ddd;
 }
 
-.topnav li.dropdown {
+/*.topnav li.dropdown {
     display: inline-block;
-}
+}*/
 
 .topnav .dropdown-content {
     display: none;
     position: absolute;
     background-color: #333;
-    min-width: 160px;
+    /*min-width: 160px;*/
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 99;
+    z-index: 999;
     margin: 0;
 }
 
 .topnav .dropdown-content a {
+    float: none;
     color: white;
     padding: 12px 16px;
     text-decoration: none;
     display: block;
     text-align: left;
+    z-index: 999;
 }
 
 .topnav .dropdown-content a:hover {
@@ -359,11 +382,12 @@ div.desc {
 /* Add a black background color to the top navigation */
 .topnav {
     background-color: #333;
-    overflow: hidden;
+    /*overflow: hidden;*/
     width: 100%;
     padding: 0;
     margin: 0;
     position: absolute;
+    z-index: 999;
 }
 
 /* Style the links inside the navigation bar */
@@ -372,7 +396,6 @@ div.desc {
     display: block;
     color: #f2f2f2;
     text-align: center;
-    padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
 }
@@ -395,10 +418,12 @@ div.desc {
 
 .topnav .social img {
     background-color: white;
+    min-height: 100%;
+    color: #333;
 }
 
 .topnav .social a {
-    padding: 0;
+    padding: 14px 16px;
 }
 
 /* Hide the link that should open and close the topnav on small screens */
@@ -437,23 +462,26 @@ div.desc {
     background-color: #333;
     border: 15% 32%;
 	width: 15em;
+    height: 2em;
     color: white;
-   
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 14px;
+    font-size: 17px;
+    font-family: 'Lobster', cursive;
 }
 
 
 .bookingbutton {
 	margin-top: 10em;
-	 background-color: #333;
+    background-color: #333;
     border: 15% 32%;
 	width: 15em;
+    height: 2em;
     color: white;
 	text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 14px;
+    font-size: 17px;
+    font-family: 'Lobster', cursive;
 }
