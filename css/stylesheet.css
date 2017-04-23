@@ -244,6 +244,7 @@ div.desc {
     line-height: 130%;
     display: block;
     background-image: url("../images/abendbrot-939435_1920.jpg");
+	background-size: 100% 100%;
 }
 
 #top {
@@ -415,8 +416,9 @@ div.desc {
     text-align: left;
     }
 }
-*menu buttons- example taken form w3c schools*/
-button.menubutton {
+/*menu buttons- example taken form w3c schools*/
+
+	.menubutton {
     background-color: #333;
     border: 15% 32%;
     color: white;
