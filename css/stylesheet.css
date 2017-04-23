@@ -4,34 +4,16 @@
     background-image: url("../images/abendbrot-939435_1920.png");
 }
 
-/*this code sets up boxes for controling the top menu.
-.menuebox {
-    display: -webkit-flex;
-    display: flex;  
-    -webkit-flex-flow: row wrap;
-    flex-flow: row wrap;
-    text-align: center;
-}
-
-.menuebox > * {
-    padding: 15px;
-    -webkit-flex: 1 100%;
-    flex: 1 100%;
-}*/
-
-/*end of this code sets up boxes for controling the top menu.*/
-
-
-/*end of this code manages the display of list items for the header and footers of all the pages.*/
-
 .welcome {
     font-size: 44px;
-    padding:40px;
+    padding: 40px;
+    line-height: 44px;
 }
 
 .subwelcome {
     font-size: 30px;
     padding: 40px;
+    line-height: 30px;
 }
 
 /*this code manages the display of main piece of text on the page.*/
@@ -248,13 +230,13 @@ div.desc {
 .menu-container {
     width: inherit;
     margin: auto;
-    /*opacity: 0.3;*/
     font-family: 'Lobster', cursive;
     color: #fff;
-    line-height: 130%;
+    font-size: 17px;
+    line-height: 17px;
     display: flex;
     flex-direction: column;
-    height:75em;
+    height: 175em;
     text-align: center;
     padding: 100px;
 }
@@ -484,4 +466,10 @@ div.desc {
     display: inline-block;
     font-size: 17px;
     font-family: 'Lobster', cursive;
+}
+
+#about-us-content {
+    font-family: 'Lobster', cursive;
+    font-size: 20px;
+    line-height: 20px;
 }
