@@ -1,9 +1,9 @@
 #container {
-   /* background-image: url("../images/abendbrot-939435_1920.jpg");*/
+    margin: 0;
+    padding: 0;
 }
 
-
-    /*this code sets up boxes for controling the top menu.*/
+/*this code sets up boxes for controling the top menu.*/
 .menuebox {
     display: -webkit-flex;
     display: flex;  
@@ -20,28 +20,10 @@
 
 /*end of this code sets up boxes for controling the top menu.*/
 
-/*this code manages the display of list items for the header and footers of all the pages.*/
-
-.headerfooterlist ul {
-    background-color: #333;
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-}
-
-.headerfooterlist li {
-    display: block;
-    padding: 14px 16px;
-    text-decoration: none;
-}
-
-.headerfooterlist li {
-    float: left;
-}
 
 /*end of this code manages the display of list items for the header and footers of all the pages.*/
 
-/*this code manages the display of main peace of text on the page.*/
+/*this code manages the display of main piece of text on the page.*/
 
 .article {
     text-align: left;
@@ -253,8 +235,9 @@ div.desc {
 
 /* ronan code for menus */
 .menu-container {
-    width: 90%;
-    margin: 10px auto;
+    width: inherit;
+    margin: auto;
+    opacity: 0.3;
     font-family: 'Lobster', cursive;
     color: #fff;
     border: 1px solid gray;
@@ -316,7 +299,7 @@ div.desc {
 
 
 /* style that makes a dropdown menu */
-ul {
+.topnav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -324,11 +307,11 @@ ul {
     background-color: #333;
 }
 
-li {
+.topnav li {
     float: left;
 }
 
-li a, .dropbtn {
+.topnav li a, .dropbtn {
     display: inline-block;
     color: white;
     text-align: center;
@@ -336,24 +319,24 @@ li a, .dropbtn {
     text-decoration: none;
 }
 
-li a:hover, .dropdown:hover .dropbtn {
+.topnav li a:hover, .dropdown:hover .dropbtn {
     background-color: #ddd;
 }
 
-li.dropdown {
+.topnav li.dropdown {
     display: inline-block;
 }
 
-.dropdown-content {
+.topnav .dropdown-content {
     display: none;
     position: absolute;
-    background-color: #f9f9f9;
+    background-color: #333;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
+    z-index: 99;
 }
 
-.dropdown-content a {
+.topnav .dropdown-content a {
     color: black;
     padding: 12px 16px;
     text-decoration: none;
@@ -361,9 +344,9 @@ li.dropdown {
     text-align: left;
 }
 
-.dropdown-content a:hover {background-color: #f1f1f1}
+.topnav .dropdown-content a:hover {background-color: #f1f1f1}
 
-.dropdown:hover .dropdown-content {
+.topnav .dropdown:hover .dropdown-content {
     display: block;
 }
 
@@ -372,6 +355,7 @@ li.dropdown {
 .topnav {
     background-color: #333;
     overflow: hidden;
+    width: auto;
 }
 
 /* Style the links inside the navigation bar */
@@ -385,10 +369,20 @@ li.dropdown {
     font-size: 17px;
 }
 
+.topnav ul {
+    margin: 0 auto;
+    display: inline;
+}
+
 /* Change the color of links on hover */
 .topnav a:hover {
     background-color: #ddd;
     color: black;
+}
+
+.topnav .social {
+    float: right;
+    height: inherit;
 }
 
 /* Hide the link that should open and close the topnav on small screens */
