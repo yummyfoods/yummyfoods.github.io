@@ -1,8 +1,8 @@
 #container {
     margin: 0;
     padding: 0;
-    background-image: url("../images/abendbrot-939435_1920.jpg");
-    background-size: 100% 100%;
+    background-image: url("../images/abendbrot-939435_1920.png");
+    
 }
 
 /*this code sets up boxes for controling the top menu.*/
@@ -244,7 +244,7 @@ div.desc {
     color: #fff;
     line-height: 130%;
     display: block;
-    height:45em;
+    height:55em;
     text-align: center;
 }
 
@@ -336,6 +336,7 @@ div.desc {
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 99;
+    margin: 0;
 }
 
 .topnav .dropdown-content a {
@@ -359,7 +360,10 @@ div.desc {
 .topnav {
     background-color: #333;
     overflow: hidden;
-    width: auto;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    position: absolute;
 }
 
 /* Style the links inside the navigation bar */
@@ -387,6 +391,14 @@ div.desc {
 .topnav .social {
     float: right;
     height: inherit;
+}
+
+.topnav .social img {
+    background-color: white;
+}
+
+.topnav .social a {
+    padding: 0;
 }
 
 /* Hide the link that should open and close the topnav on small screens */
@@ -421,7 +433,7 @@ div.desc {
 }
 /*menu buttons- example taken form w3c schools*/
 
-	.menubutton {
+.menubutton {
     background-color: #333;
     border: 15% 32%;
 	width: 15em;
@@ -434,7 +446,7 @@ div.desc {
 }
 
 
-.bookingbutton{
+.bookingbutton {
 	margin-top: 10em;
 	 background-color: #333;
     border: 15% 32%;
