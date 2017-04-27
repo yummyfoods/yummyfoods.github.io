@@ -483,6 +483,7 @@ div.desc {
     font-family: 'Lobster', cursive;
     font-size: 20px;
     line-height: 20px;
+    padding: 0 10%;
 }
 
 .google-maps {
