@@ -1,3 +1,7 @@
+body {
+    margin: 0;
+}
+
 #container {
     margin: 0;
     padding: 0;
@@ -6,13 +10,13 @@
 
 .welcome {
     font-size: 44px;
-    padding: 40px;
+    /*padding: 0;*/
     line-height: 44px;
 }
 
 .subwelcome {
     font-size: 30px;
-    padding: 40px;
+    padding-bottom: 40px;
     line-height: 30px;
 }
 
@@ -236,9 +240,9 @@ div.desc {
     line-height: 1em;
     display: flex;
     flex-direction: column;
-    /*height: 175em;*/
+    min-height: 100vh;
     text-align: center;
-    padding: 100px 0 100px 0;
+    padding: 100px 0;
     overflow: auto;
 }
 
