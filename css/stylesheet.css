@@ -232,13 +232,14 @@ div.desc {
     margin: auto;
     font-family: 'Lobster', cursive;
     color: #fff;
-    font-size: 17px;
-    line-height: 17px;
+    font-size: 1em;
+    line-height: 1em;
     display: flex;
     flex-direction: column;
-    height: 175em;
+    /*height: 175em;*/
     text-align: center;
-    padding: 100px;
+    padding: 100px 0 100px 0;
+    overflow: auto;
 }
 
 .menu-container ul {
@@ -247,6 +248,11 @@ div.desc {
 
 .menu-container ul li {
     padding: 15px 0px;
+}
+
+.menu-container h1 {
+    font-size-adjust: auto;
+    line-height: normal;
 }
 
 #top {
