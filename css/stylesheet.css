@@ -428,7 +428,7 @@ div.desc {
 @media screen and (max-width: 600px) {
   .topnav li:not(:first-child) {display: none;}
   .topnav a.icon {
-    float: right;
+    float: left;
     display: block;
   }
 }
@@ -439,9 +439,10 @@ div.desc {
       position: relative;
     }
   .topnav.responsive .icon {
-    position: absolute;
+    position: relative;
     right: 0;
     top: 0;
+    z-index: 9999;
     }
   .topnav.responsive li {
     float: none;
